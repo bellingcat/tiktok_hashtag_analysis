@@ -23,7 +23,8 @@ from tenacity import (
     TryAgain,
     wait_exponential,
 )
-from playwright._impl._errors import Error
+# from playwright._impl._errors import Error
+from playwright.async_api import Error
 from TikTokApi import TikTokApi
 
 
